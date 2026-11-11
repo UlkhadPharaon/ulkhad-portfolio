@@ -1,0 +1,19 @@
+node_modules
+.next
+out
+build
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+playwright-report
+test-results
+# local build/transcode cache
+cache
+# 89 MB HEVC master of the Buud Zabré teaser; the H.264 export lives in public/
+media-masters
+# scratch artifacts from ad-hoc scripts and tool runs
+scripts-tmp-*.mjs
+tmp-*.html
+.playwright-mcp

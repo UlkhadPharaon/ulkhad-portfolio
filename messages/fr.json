@@ -1,0 +1,23 @@
+{
+  "Nav": {
+    "home": "Accueil",
+    "work": "Projets",
+    "about": "À propos",
+    "writing": "Journal",
+    "services": "Services",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Fermer",
+    "availability": "Disponible pour projets sélectionnés"
+  },
+  "Common": {
+    "discover": "Explorer le projet",
+    "allProjects": "Tous les projets",
+    "backHome": "Retour à l'accueil",
+    "next": "Projet suivant",
+    "external": "Ouvrir le lien",
+    "todo": "À compléter",
+    "location": "Ouagadougou, Burkina Faso",
+    "scroll": "Faire défiler pour explorer"
+  }
+}

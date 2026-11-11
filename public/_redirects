@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects.
+# `output: 'export'` cannot emit redirects, so the locale entry point lives here.
+/  /fr  302
