@@ -30,10 +30,22 @@ test('contact form validates required fields', async ({ page }) => {
   await expect(page.getByText(/Votre nom est requis/i)).toBeVisible();
 });
 
-test('network marquee names real collaborators without invented quotes', async ({ page }) => {
+// TEMPORARILY SKIPPED: the network marquee is hidden at the owner's request.
+// Un-skip this test when <EndorsementTicker /> returns to the homepage.
+test.skip('network marquee names real collaborators without invented quotes', async ({ page }) => {
   await page.goto('/fr');
   await waitForHydration(page);
   await expect(page.getByRole('heading', { name: /Le travail se construit/i })).toBeVisible();
   await expect(page.getByText('BNV').first()).toBeVisible();
   await expect(page.getByText(/témoignage/i)).toHaveCount(0);
+});
+
+// The network section must stay absent while it is disabled.
+test('network marquee stays hidden while disabled', async ({ page }) => {
+  await page.goto('/fr');
+  await waitForHydration(page);
+  await expect(page.getByRole('heading', { name: /Le travail se construit/i })).toHaveCount(0);
+  await expect(page.getByText(/RÉSEAU . HIGH FIVES/i)).toHaveCount(0);
+  // Sections around it must be untouched.
+  await expect(page.getByRole('heading', { name: /Le travail parle/i })).toBeVisible();
 });

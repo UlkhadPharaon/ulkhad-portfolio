@@ -11,7 +11,6 @@ import { ProjectCard } from '@/components/projects/ProjectCard';
 import { LogoReveal } from '@/components/ui/LogoReveal';
 import { ProofRail } from './ProofRail';
 import { SignatureFrame } from './SignatureFrame';
-import { EndorsementTicker } from './EndorsementTicker';
 import { AudiencePaths } from './AudiencePaths';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
@@ -147,7 +146,13 @@ export function HomePage({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      <EndorsementTicker locale={locale} />
+      {/*
+        TEMPORARILY DISABLED at the owner's request: the professional network
+        marquee ("RÉSEAU / HIGH FIVES" / "NETWORK / HIGH FIVES") is hidden on
+        the homepage until further notice. The component and its copy in
+        site.config.ts (voicesLabel / voicesTitle, endorsements) are untouched.
+        To restore, re-add the import above and render <EndorsementTicker locale={locale} /> here.
+      */}
       <AudiencePaths locale={locale} />
 
       <section className="hp-contact" aria-labelledby="contact-title">
