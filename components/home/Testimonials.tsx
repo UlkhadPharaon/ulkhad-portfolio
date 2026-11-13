@@ -10,9 +10,9 @@ export function Testimonials({ locale }: { locale: Locale }) {
   return (
     <section className="testimonials section-pad" aria-labelledby="testimonials-title">
       <div className="testimonials__head">
-        <span className="eyebrow">{fr ? 'HIGH FIVES / COMMUNAUTÉ TKS' : 'HIGH FIVES / TKS COMMUNITY'}</span>
+        <span className="eyebrow">{fr ? 'HIGH FIVES / COLLABORATIONS' : 'HIGH FIVES / COLLABORATORS'}</span>
         <h2 id="testimonials-title">{fr ? 'Ce que l’équipe dit.' : 'What the team says.'}</h2>
-        <p>{fr ? 'Encouragements reçus dans la communauté TKS. Chaque citation est un message réel, attribué à son auteur.' : 'Encouragement received inside the TKS community. Every quote is a real message, attributed to its author.'}</p>
+        <p>{fr ? 'Encouragements reçus de mes collaborateurs. Chaque citation est un message réel, attribué à son auteur.' : 'Encouragement received from my collaborators. Every quote is a real message, attributed to its author.'}</p>
       </div>
       <div className="testimonials__grid">
         {testimonials.map((person) => (

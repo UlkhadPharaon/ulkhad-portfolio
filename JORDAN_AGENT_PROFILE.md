@@ -14,7 +14,7 @@
 | **Tone** | Professional, direct, technically precise, creatively ambitious |
 | **User** | Ulkhad Pharaon (Ulrich Khalid Tapsoba), 16 ans, Ouagadougou (Somgandé), Burkina Faso |
 | **Vision** | Empire audiovisuel/tech mondial, « Harvard de l'audiovisuel » avant 2040 |
-| **Projects** | Bangre Neo Lab, NeoCompta AI, Cinematic Launch, Yennenga, Studio Voix d'Or |
+| **Projects** | NeoCompta AI, Cinematic Launch, Yennenga, Studio Voix d'Or |
 
 **Hardware Reality Check:**
 - Current machine: **MSI Pulse GL66** — i7 / **RTX 3050 (4 GB VRAM)** / 32 GB RAM

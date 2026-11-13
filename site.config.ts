@@ -26,7 +26,6 @@ export const site = {
     cellLabRepo: 'https://github.com/UlkhadPharaon/Celly',
     cellLabDemo: 'https://cellab.vercel.app',
     cellyDemo: 'https://celly-epp.pages.dev/',
-    tks: 'https://www.tks.life/p/ulrich',
     barkaDigital: 'https://lefasodigital.net/concours/vitrine/barka-digital',
     nasaTeam: 'https://www.spaceappschallenge.org/2026/find-a-team/icarus6/?tab=members',
     linkedin: '',
@@ -59,13 +58,6 @@ export const proofPoints: ProofPoint[] = [
     label: { fr: 'FINALISTE / 2026', en: 'FINALIST / 2026' },
     value: { fr: 'Barka Digital — Concours National du Numérique', en: 'Barka Digital — National Digital Competition' },
     href: 'barkaDigital',
-  },
-  {
-    id: 'tks',
-    label: { fr: 'PROGRAMME', en: 'PROGRAM' },
-    value: { fr: 'TKS — Velocity', en: 'TKS — Velocity' },
-    note: { fr: 'Programme accéléré et sélectif', en: 'An accelerated, selective program' },
-    href: 'tks',
   },
   {
     id: 'studio',
@@ -129,7 +121,7 @@ export const copy = {
     eyebrow: 'RÉALISATEUR · BUILDER · OUAGADOUGOU',
     heroClaim: 'Des films. Des produits. Des systèmes.',
     heroIntro: 'Réalisateur et builder. Je travaille là où le cinéma, la 3D temps réel et l’IA se rencontrent — du scénario au produit livré.',
-    heroProof: 'Finaliste — Barka Digital, Concours National du Numérique 2026 · TKS Velocity · Studio Voix d’Or',
+    heroProof: 'Finaliste — Barka Digital, Concours National du Numérique 2026 · Studio Voix d’Or',
     heroImageCaption: 'Teaser de court métrage — réalisation & production, Unreal Engine.',
     workLabel: 'TRAVAIL / SÉLECTION',
     workTitle: 'Ce qui existe déjà.',
@@ -140,9 +132,9 @@ export const copy = {
     signatureBody: 'Simulation, rendu et compositing. Une étude personnelle réalisée avec Blender, Houdini, Unreal Engine et Nuke.',
     aboutEyebrow: 'LE CONSTRUCTEUR',
     aboutTitle: 'Le cinéma m’a appris à raconter. Le code m’a appris à livrer.',
-    aboutBody: 'Je m’appelle Ulrich Tapsoba — Ulkhad Pharaon. Basé à Ouagadougou, sélectionné à TKS dans le programme accéléré Velocity, je construis en parallèle des films, des environnements 3D et des produits IA. La même exigence traverse les trois : une idée claire, une exécution réelle, un résultat utilisable.',
+    aboutBody: 'Je m’appelle Ulrich Tapsoba — Ulkhad Pharaon. Basé à Ouagadougou, je construis en parallèle des films, des environnements 3D et des produits IA. La même exigence traverse les trois : une idée claire, une exécution réelle, un résultat utilisable.',
     aboutCta: 'Lire le parcours',
-    aboutChips: ['TKS — Velocity', 'Studio Voix d’Or', 'Bangre Néo Lab', 'NASA Space Apps 2026'],
+    aboutChips: ['Studio Voix d’Or', 'NASA Space Apps 2026'],
     voicesLabel: 'RÉSEAU / HIGH FIVES',
     voicesTitle: 'Le travail se construit avec d’autres.',
     voicesIntro: 'Producteurs, DJs, studios et pairs qui ont vu le travail de près.',
@@ -157,7 +149,7 @@ export const copy = {
     eyebrow: 'FILMMAKER · BUILDER · OUAGADOUGOU',
     heroClaim: 'Films. Products. Systems.',
     heroIntro: 'Filmmaker and builder. I work where cinema, real-time 3D and AI meet — from screenplay to shipped product.',
-    heroProof: 'Finalist — Barka Digital, 2026 National Digital Competition · TKS Velocity · Studio Voix d’Or',
+    heroProof: 'Finalist — Barka Digital, 2026 National Digital Competition · Studio Voix d’Or',
     heroImageCaption: 'Short-film teaser — direction & production, Unreal Engine.',
     workLabel: 'WORK / SELECTED',
     workTitle: 'What already exists.',
@@ -168,9 +160,9 @@ export const copy = {
     signatureBody: 'Simulation, rendering and compositing. A personal study made with Blender, Houdini, Unreal Engine and Nuke.',
     aboutEyebrow: 'THE BUILDER',
     aboutTitle: 'Cinema taught me to tell. Code taught me to ship.',
-    aboutBody: 'My name is Ulrich Tapsoba — Ulkhad Pharaon. Based in Ouagadougou and selected into TKS’s accelerated Velocity program, I build films, 3D environments and AI products in parallel. The same standard runs through all three: a clear idea, real execution, a usable result.',
+    aboutBody: 'My name is Ulrich Tapsoba — Ulkhad Pharaon. Based in Ouagadougou, I build films, 3D environments and AI products in parallel. The same standard runs through all three: a clear idea, real execution, a usable result.',
     aboutCta: 'Read the journey',
-    aboutChips: ['TKS — Velocity', 'Studio Voix d’Or', 'Bangre Néo Lab', 'NASA Space Apps 2026'],
+    aboutChips: ['Studio Voix d’Or', 'NASA Space Apps 2026'],
     voicesLabel: 'NETWORK / HIGH FIVES',
     voicesTitle: 'Good work is built with other people.',
     voicesIntro: 'Producers, DJs, studios and peers who have seen the work up close.',
@@ -374,31 +366,8 @@ export const projects: Project[] = ([
     },
   },
   {
-    slug: 'bangre-neo-lab',
-    number: '05',
-    title: 'Bangre Néo Lab',
-    category: 'XR / EDUCATION',
-    status: 'ACTIVE R&D',
-    visual: 'hand',
-    year: '2026—',
-    role: ['Founder / Builder', 'XR & Learning Experience'],
-    tools: ['Unity', 'Unreal Engine', 'MediaPipe', 'Three.js'],
-    summary: {
-      fr: 'Faire de l’apprentissage une expérience que l’on peut manipuler, pas seulement regarder.',
-      en: 'Make learning something students can manipulate, not just watch.',
-    },
-    detail: {
-      fr: 'Bangre Néo Lab explore des expériences d’apprentissage spatiales et accessibles. L’ambition : rendre les concepts abstraits plus tangibles grâce à la 3D temps réel, au suivi des mains et à des usages pensés pour les réalités des salles de classe africaines.',
-      en: 'Bangre Néo Lab explores accessible spatial learning experiences. The ambition: make abstract concepts tangible through real-time 3D, hand tracking and workflows designed around the realities of African classrooms.',
-    },
-    outcome: { fr: 'Un axe de recherche et de prototypage autour de l’apprentissage XR sans contrôleur.', en: 'A research and prototyping track for controller-free XR learning.' },
-    links: [{ label: { fr: 'Ouvrir Celly — application en ligne', en: 'Open Celly — live learning app' }, href: 'https://celly-epp.pages.dev/', external: true }, { label: { fr: 'Lire l’article Medium', en: 'Read the Medium article' }, href: 'https://medium.com/@ulrichtapsoba2009/from-rgb-camera-to-3d-interaction-how-controller-free-xr-could-transform-learning-d920d92cf5ba', external: true }],
-    cover: '/media/work/bangre-neo-lab-test.png',
-    coverAlt: { fr: 'Écran d’évaluation de Celly : quiz, examen complet et cartes de révision pour mesurer ce que l’interaction gestuelle apporte.', en: 'Celly assessment screen: quiz, full exam and revision cards used to measure what gesture interaction actually adds.' },
-  },
-  {
     slug: 'celllab',
-    number: '06',
+    number: '05',
     title: 'CellLab',
     category: 'XR / WEB 3D',
     status: 'PROTOTYPE LIVE',
@@ -415,13 +384,14 @@ export const projects: Project[] = ([
       en: 'CellLab is a web prototype connecting computer vision to a manipulable 3D model. It tests a simple hypothesis: can gesture-based interaction make exploring a biological model feel more intuitive?',
     },
     outcome: { fr: 'Une démonstration interactive est accessible en ligne ; le code est public.', en: 'An interactive demo is available online; the code is public.' },
-    links: [{ label: { fr: 'Ouvrir la démo', en: 'Open live demo' }, href: 'https://cellab.vercel.app', external: true }, { label: { fr: 'Voir le code source', en: 'View source code' }, href: 'https://github.com/UlkhadPharaon/Celly', external: true }],
+    links: [{ label: { fr: 'Ouvrir la démo', en: 'Open live demo' }, href: 'https://cellab.vercel.app', external: true },
+  { label: { fr: 'Voir le code source', en: 'View source code' }, href: 'https://github.com/UlkhadPharaon/Celly', external: true }],
     cover: '/media/apps/cellab.png',
     coverAlt: { fr: 'Interface du prototype CellLab dans le navigateur.', en: 'CellLab prototype interface in the browser.' },
   },
   {
     slug: 'celly',
-    number: '07',
+    number: '06',
     title: 'Celly',
     category: 'EDTECH / WEB 3D',
     status: 'LIVE APP',
@@ -444,7 +414,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'dagara-germanist-ai',
-    number: '08',
+    number: '07',
     title: 'Dagara Germanist AI',
     category: 'AI / EDUCATION',
     status: 'LIVE APP',
@@ -468,7 +438,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'lenscraft-music-to-scenario',
-    number: '09',
+    number: '08',
     title: 'LensCraft — Music to Scenario',
     titleFr: 'LensCraft — de la musique au scénario',
     category: 'AI / CREATIVE TOOLS',
@@ -492,7 +462,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'libriwouo-sme-tax-saas',
-    number: '10',
+    number: '09',
     title: 'LibriWouo — SME Tax SaaS',
     titleFr: 'LibriWouo — SaaS fiscal pour PME',
     category: 'AI / BUSINESS SOFTWARE',
@@ -516,7 +486,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'business-ai-agents',
-    number: '11',
+    number: '10',
     title: 'Nefertem — AI Growth Systems',
     titleFr: 'Nefertem — systèmes de croissance IA',
     category: 'AI / BUSINESS SYSTEMS',
@@ -549,7 +519,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'creative-ai-agent-orchestration',
-    number: '12',
+    number: '11',
     title: 'Jordan — Creative AI Agent',
     titleFr: 'Jordan — agent IA créatif',
     category: 'AI / CREATIVE AUTOMATION',
@@ -580,7 +550,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'ai-assisted-creative-production-study',
-    number: '13',
+    number: '12',
     title: 'Voix d’Or Parfum — Fully AI-Driven Production',
     titleFr: 'Voix d’Or Parfum — production 100 % IA open source',
     category: 'AI / CREATIVE PRODUCTION',
@@ -606,7 +576,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'cancer-detection-ai-prototype',
-    number: '14',
+    number: '13',
     title: 'Cancer Detection — Image Classifier',
     titleFr: 'Détection du cancer — classifieur d’images',
     category: 'AI / HEALTH RESEARCH',
@@ -637,7 +607,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'crispr-benchling-exploration',
-    number: '15',
+    number: '14',
     title: 'CRISPR Design — BRCA2 Sequence',
     titleFr: 'Conception CRISPR — séquence BRCA2',
     category: 'BIOLOGY / COMPUTATIONAL DESIGN',
@@ -661,7 +631,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'itaoua-hoka-cgi-pipeline',
-    number: '16',
+    number: '15',
     title: 'Itaoua Hoka — Full-CGI Commercial',
     titleFr: 'Itaoua Hoka — publicité 100 % CGI',
     category: 'CGI / ADVERTISING',
@@ -691,7 +661,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'studio-voix-dor',
-    number: '17',
+    number: '16',
     title: 'Studio Voix d’Or — Selected Production Work',
     titleFr: 'Studio Voix d’Or — productions sélectionnées',
     category: 'FILM / MUSIC VIDEOS / COMMERCIALS',
@@ -730,7 +700,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'buud-zabre',
-    number: '18',
+    number: '17',
     title: 'Buud Zabré',
     category: 'AFROFUTURISM / FILM',
     status: 'IN DEVELOPMENT',
@@ -767,18 +737,18 @@ export const projects: Project[] = ([
   },
   {
     slug: 'aegis-intelligent-escort',
-    number: '19',
+    number: '18',
     title: 'AEGIS — The Intelligent Escort',
     titleFr: 'AEGIS — l\u2019escorte intelligente',
     category: 'ROBOTICS / COMPUTER VISION / AI',
     status: 'CHALLENGE BUILD \u00b7 SIMULATED',
     visual: 'camera',
-    year: 'TKS UNITREE SDK CHALLENGE \u00b7 2026',
+    year: '2026',
     role: ['Product definition', 'Mission architecture', 'SDK integration', 'Console prototype'],
     tools: ['Unitree G1 EDU', 'ROS 2 Humble', 'OpenCV', 'TensorRT', 'ByteTrack', 'MediaPipe Pose', 'Gemma', 'Python SDK'],
     summary: {
-      fr: 'Un compagnon de s\u00e9curit\u00e9 personnelle construit sur le robot Unitree G1 EDU, pour le TKS Unitree SDK Challenge.',
-      en: 'A personal safety companion built on the Unitree G1 EDU robot for the TKS Unitree SDK Challenge.',
+      fr: 'Un compagnon de s\u00e9curit\u00e9 personnelle construit sur le robot Unitree G1 EDU.',
+      en: 'A personal safety companion built on the Unitree G1 EDU robot.'
     },
     detail: {
       fr: 'AEGIS est un compagnon de s\u00e9curit\u00e9 personnelle construit sur le robot Unitree G1 EDU. Il combine perception spatiale, vision par ordinateur et interpr\u00e9tation locale des \u00e9v\u00e9nements assist\u00e9e par IA, le tout plac\u00e9 derri\u00e8re un superviseur de s\u00e9curit\u00e9 d\u00e9terministe qui a l\u2019autorit\u00e9 finale sur les mouvements physiques. Une boucle de mission en huit \u00e9tapes \u2014 appairage, contr\u00f4le pr\u00e9alable, localisation, suivi, planification, d\u00e9placement, r\u00e9ponse, fin \u2014 avec des conditions d\u2019arr\u00eat explicites et une escalade vers un humain. AEGIS n\u2019est pas un robot de combat : pas de frappe, de saisie, de poursuite, de contention ni d\u2019affrontement autonome. Le produit pr\u00e9vient, met en pause, cr\u00e9e de la distance, guide et alerte. La page du projet documente aussi trois corrections v\u00e9rifi\u00e9es contre le SDK Python officiel \u2014 Lie2StandUp() plut\u00f4t que StandUp(), Move() n\u2019est valide qu\u2019avec continous_move=True, et GetFsmId() pour l\u2019\u00e9tat de disponibilit\u00e9.',
@@ -794,7 +764,7 @@ export const projects: Project[] = ([
   },
   {
     slug: 'go2-campus-security',
-    number: '20',
+    number: '19',
     title: 'Go2 Patrol — Campus Security Research',
     titleFr: 'Go2 Patrol — recherche sur la sécurité de campus',
     category: 'ROBOTICS / RESEARCH / SAFETY',
@@ -862,16 +832,10 @@ export const endorsements: Endorsement[] = [
     role: { fr: 'Gérant', en: 'Manager' },
     credential: { fr: 'Studio Voix d’Or', en: 'Studio Voix d’Or' },
   },
-  {
-    id: 'tks-peers',
-    name: 'TKS — Velocity',
-    role: { fr: 'Pairs et mentors', en: 'Peers & mentors' },
-    credential: { fr: 'High Fives de la cohorte', en: 'Cohort High Fives' },
-  },
-];
+  ];
 
 /**
- * Approved High Fives received inside the TKS community.
+ * Approved High Fives received from collaborators.
  *
  * These are real messages from named people. Only obvious typos were corrected;
  * wording, order and voice are preserved. Each carries both a French and an
@@ -934,57 +898,12 @@ export const testimonials: Testimonial[] = [
     },
   },
   {
-    id: 'khalid-lahlou',
-    name: 'Khalid Lahlou',
-    context: { fr: 'TKS \u2014 Velocity', en: 'TKS \u2014 Velocity' },
-    quote: {
-      fr: 'Ulrich est incroyablement concentr\u00e9 et r\u00e9fl\u00e9chi, surtout quand il parle de son projet 3D. C\u2019est une excellente oreille, il comprend les id\u00e9es presque instantan\u00e9ment, et il est vraiment facile et agr\u00e9able \u00e0 \u00e9couter.',
-      en: 'Ulrich is incredibly focused and thoughtful, especially when talking about his 3D project. He\u2019s a great listener, understands ideas almost instantly, and is genuinely easy and enjoyable to talk to.',
-    },
-  },
-  {
     id: 'aadi-kapoor',
     name: 'Aadi Kapoor',
     context: { fr: 'Conrad Challenge', en: 'Conrad Challenge' },
     quote: {
       fr: 'Ulrich ! Ton enthousiasme pour tes centres d\u2019int\u00e9r\u00eat et tes projets est tout simplement fou. J\u2019adore ton \u00e9tat d\u2019esprit : construire des choses folles sans tenir compte de ton \u00e2ge, et cet engagement est vraiment admirable. J\u2019ai aussi beaucoup aim\u00e9 tes projets.',
       en: 'Ulrich! Your enthusiasm towards your interests and projects is actually crazy. I really love the mindset you have about doing that crazy building regardless of your age, and the commitment is really commendable. I also really loved your projects.',
-    },
-  },
-  {
-    id: 'karinate-divine-ebimo',
-    name: 'Karinate Divine Ebimo',
-    context: { fr: 'TKS \u2014 Velocity', en: 'TKS \u2014 Velocity' },
-    quote: {
-      fr: 'Une personne formidable avec qui parler et partager des id\u00e9es. H\u00e2te de mieux te conna\u00eetre et d\u2019apprendre beaucoup de toi.',
-      en: 'An amazing person to talk to and share ideas with. Excited to get to know you better and looking forward to learning a lot from Ulrich.',
-    },
-  },
-  {
-    id: 'gagan-saisaket',
-    name: 'Gagan Saisaket Saranam',
-    context: { fr: 'TKS \u2014 Velocity', en: 'TKS \u2014 Velocity' },
-    quote: {
-      fr: 'Ulrich a ce genre de courage qui se transmet. J\u2019adore sa vision et sa passion \u00e0 mener sa propre entreprise. C\u00e9tait rarafra\u00eechissant de rencontrer quelqu\u2019un qui traverse les m\u00eames d\u00e9fis avec un \u00e9tat d\u2019esprit similaire.',
-      en: 'Ulrich has the kind of courage that is contagious. I love his vision and his passion to run his own business. Really refreshing to meet someone going through the same challenges with a similar mindset.',
-    },
-  },
-  {
-    id: 'madhumita-k',
-    name: 'Madhumita K',
-    context: { fr: 'TKS \u2014 Velocity', en: 'TKS \u2014 Velocity' },
-    quote: {
-      fr: 'Un excellent braindate ! J\u2019ai vraiment aim\u00e9 ton projet focus ; tu es tr\u00e8s cal\u00e9, et j\u2019adore la mani\u00e8re dont tu as pris quelque chose qui t\u2019avait affect\u00e9 pour cr\u00e9er quelque chose qui l\u2019am\u00e9liore.',
-      en: 'Had a great braindate! I really loved your focus project; you are very knowledgeable, and I love how you took something that affected you to start something that would improve it.',
-    },
-  },
-  {
-    id: 'meit-dabas',
-    name: 'Meit Dabas',
-    context: { fr: 'TKS \u2014 Velocity', en: 'TKS \u2014 Velocity' },
-    quote: {
-      fr: 'Ulrich a des principes solides et est motiv\u00e9 par l\u2019impact social. C\u2019est tr\u00e8s int\u00e9ressant de parler avec lui, et il a des projets vraiment int\u00e9ressants en cours.',
-      en: 'Ulrich has grounded principles and is driven by social impact. He is super interesting to talk to and has really interesting projects going on.',
     },
   },
 ];
@@ -996,12 +915,10 @@ export const timeline = {
     { label: 'Réalisation & pratique audiovisuelle', body: 'Écriture de scénarios, réalisation, montage, direction de clips et création de films avec des workflows temps réel.' },
     { label: 'Studio Voix d’Or & productions institutionnelles', body: 'Collaborer à des projets audiovisuels réels, notamment au montage, à l’étalonnage et à l’animation, sur des missions associatives et gouvernementales.' },
     { label: 'VFX, 3D & environnements Unreal', body: 'Construire des images de la simulation au compositing : Blender, Houdini, Unreal Engine, Nuke et After Effects.' },
-    { label: 'TKS — Velocity', body: 'Sélectionné à TKS dans le programme accéléré Velocity, et évolution dans une communauté internationale orientée vers les défis, l’apprentissage rapide et la construction de projets.' },
     { label: 'Finaliste — Barka Digital, concours national du numérique 2026', body: 'Atteindre la finale d’une compétition nationale consacrée au numérique avec Barka Digital.' },
     { label: 'NASA Space Apps Challenge 2026', body: 'Prendre part avec l’équipe Icarus 6 à un défi lié à la commercialisation de l’orbite basse (Commercializing LEO).' },
     { label: 'Conrad Challenge 2026–27', body: 'Concevoir en équipe une solution qui relie énergie solaire, protection des panneaux et usages agricoles.' },
     { label: 'Produits IA & SaaS', body: 'Construire Dagara Germanist AI, LensCraft, LibriWouo et des systèmes d’agents IA adaptés aux besoins d’entreprises.' },
-    { label: 'Bangre Néo Lab & CellLab', body: 'Faire converger tracking des mains, 3D temps réel et apprentissage spatial dans des prototypes XR accessibles.' },
     { label: 'Recherche & exploration', body: 'Publier sur l’impact de la XR en éducation et explorer des sujets techniques, de l’IA expérimentale à la conception génétique in silico.' },  ],
   en: [
     { label: '2022 — Pschool Burkina Faso', body: 'Trained at Pschool, part of its first Burkina Faso cohort: learned the basics of coding and robotics.' },
@@ -1009,21 +926,29 @@ export const timeline = {
     { label: 'Film direction & audiovisual practice', body: 'Writing screenplays, directing, editing, directing music videos and creating films with real-time workflows.' },
     { label: 'Studio Voix d’Or & institutional productions', body: 'Collaborating on real audiovisual projects, including editing, color grading and animation across NGO and government assignments.' },
     { label: 'VFX, 3D & Unreal environments', body: 'Building images from simulation to compositing with Blender, Houdini, Unreal Engine, Nuke and After Effects.' },
-    { label: 'TKS — Velocity', body: 'Selected into TKS’s accelerated Velocity program, growing within an international community focused on challenges, rapid learning and building projects.' },
     { label: 'Finalist — Barka Digital, 2026 National Digital Competition', body: 'Reaching the finalist stage of a national digital competition with Barka Digital.' },
     { label: 'NASA Space Apps Challenge 2026', body: 'Taking part with team Icarus 6 in a challenge related to Commercializing LEO.' },
     { label: 'Conrad Challenge 2026–27', body: 'Working with a team on a solution connecting solar energy, panel protection and agricultural use cases.' },
     { label: 'AI products & SaaS', body: 'Building Dagara Germanist AI, LensCraft, LibriWouo and custom AI-agent systems for business workflows.' },
-    { label: 'Bangre Néo Lab & CellLab', body: 'Bringing hand tracking, real-time 3D and spatial learning together in accessible XR prototypes.' },
     { label: 'Research & exploration', body: 'Publishing on the impact of XR in education and exploring technical subjects, from experimental AI to in-silico genetic design.' },  ],
 };
 
 export const tools = [
-  { name: 'Blender', group: '3D / VFX' }, { name: 'Houdini', group: '3D / VFX' }, { name: 'Unreal Engine', group: '3D / VFX' }, { name: 'Nuke', group: 'COMPOSITING' },
-  { name: 'After Effects', group: 'MOTION / VFX' }, { name: 'DaVinci Resolve', group: 'CINEMA' }, { name: 'Unity', group: 'XR' },
-  { name: 'Three.js', group: 'XR' }, { name: 'MediaPipe', group: 'COMPUTER VISION' }, { name: 'OSC', group: 'XR' },
-  { name: 'AI agents', group: 'AI SYSTEMS' }, { name: 'Workflow automation', group: 'AI SYSTEMS' }, { name: 'Teachable Machine', group: 'ML PROTOTYPING' },
-  { name: 'Benchling', group: 'BIO DESIGN' }, { name: 'Cloudflare Workers', group: 'PRODUCT ENGINEERING' },
+  { name: 'Blender', group: '3D / VFX' },
+  { name: 'Houdini', group: '3D / VFX' },
+  { name: 'Unreal Engine', group: '3D / VFX' },
+  { name: 'Nuke', group: 'COMPOSITING' },
+  { name: 'After Effects', group: 'MOTION / VFX' },
+  { name: 'DaVinci Resolve', group: 'CINEMA' },
+  { name: 'Unity', group: 'XR' },
+  { name: 'Three.js', group: 'XR' },
+  { name: 'MediaPipe', group: 'COMPUTER VISION' },
+  { name: 'OSC', group: 'XR' },
+  { name: 'AI agents', group: 'AI SYSTEMS' },
+  { name: 'Workflow automation', group: 'AI SYSTEMS' },
+  { name: 'Teachable Machine', group: 'ML PROTOTYPING' },
+  { name: 'Benchling', group: 'BIO DESIGN' },
+  { name: 'Cloudflare Workers', group: 'PRODUCT ENGINEERING' },
 ];
 
 export const articles = [

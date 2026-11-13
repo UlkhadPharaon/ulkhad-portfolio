@@ -105,7 +105,7 @@ The owner's stated ideal, restated: the first screen shows a real person and a f
 1. **Film** — a real frame or short loop from Rain Power or the Unreal Engine teaser, with the exact role and status confirmed. If the Nikon selection is unconfirmed, say "presented in the context of" only after verification; otherwise describe the film itself.
 2. **Production** — Studio Voix d'Or institutional work, text-only unless logo permission is confirmed, with specific roles per project: editing, color grading, animation.
 3. **Systems** — one live product with a named user context. Dagara Germanist AI is the strongest because the use is specific; phrase the 18/20 result as a reported user outcome, not causation. LensCraft is the second because it is used inside a production studio.
-4. **Recognition** — TKS Velocity, the 2026 national digital competition finalist, NASA Space Apps 2026, Conrad Challenge 2026–27. Use exact names and dates only where verified; otherwise omit rather than hedge.
+4. **Recognition** — the 2026 national digital competition finalist, NASA Space Apps 2026, Conrad Challenge 2026–27. Use exact names and dates only where verified; otherwise omit rather than hedge.
 
 **Homepage order:**
 
@@ -216,7 +216,7 @@ Use these with the registered reviewer names. Each reviewer must start with a fr
 
 ### `egm-comprehension`
 
-> You own naive-reader positioning and content/IA. Read the current copy as a first-time visitor who is, in turn, a YC/Thiel scout, an investor, a recruiter, a government/partner program officer, and a creative client. Identify undefined terms ("founder-creator," "builder," TKS Velocity, Conrad Challenge, NASA Space Apps, VFX breakdown, XR, AI agents), missing proof, and where the site fails to answer: Who is this? How old? Where? What has he shipped? Who used it? What did he personally do? Why believe the claim? What next? Audit the homepage order and nav against the four audience paths. Evaluate the testimonial marquee when quotes are pending. Evaluate bilingual drift. Flag unverified claims and propose honest rewrites.
+> You own naive-reader positioning and content/IA. Read the current copy as a first-time visitor who is, in turn, a YC/Thiel scout, an investor, a recruiter, a government/partner program officer, and a creative client. Identify undefined terms ("founder-creator," "builder," Conrad Challenge, NASA Space Apps, VFX breakdown, XR, AI agents), missing proof, and where the site fails to answer: Who is this? How old? Where? What has he shipped? Who used it? What did he personally do? Why believe the claim? What next? Audit the homepage order and nav against the four audience paths. Evaluate the testimonial marquee when quotes are pending. Evaluate bilingual drift. Flag unverified claims and propose honest rewrites.
 
 ### `egm-implementation-readiness`
 
@@ -240,16 +240,16 @@ Use these with the registered reviewer names. Each reviewer must start with a fr
 - `site.config.ts` has 20 TODO placeholders: domain, email, WhatsApp, socials, showreel, and several case-study links.
 - Sitemap and robots use the placeholder domain. `/favicon.ico` 404s.
 - E2E: 2 of 3 tests fail because they click before hydration.
-- Homepage, About, and Services sell film/VFX, XR, and AI systems with equal weight. The strongest proof (Studio Voix d'Or institutional productions, TKS Velocity, NASA Space Apps, Conrad, national finalist) is buried in a timeline and hedged.
+- Homepage, About, and Services sell film/VFX, XR, and AI systems with equal weight. The strongest proof (Studio Voix d'Or institutional productions, NASA Space Apps, Conrad, national finalist) is buried in a timeline and hedged.
 
 ### Evidence inventory
 
 - **Film:** Rain Power documentary short made with Unreal Engine, presented in the context of the Nikon Film Festival (exact selection/credit status to confirm); Unreal Engine short-film teaser directed and produced; music-video direction and editing.
 - **VFX/3D:** Blender/Houdini/Unreal simulations, Nuke/After Effects compositing, 3D product animation/modeling, Unreal environment building; five VFX study videos; one AI-assisted creative production study.
 - **Products:** Dagara Germanist AI (used by an inspector trainee who reported 18/20 at a defense — reported outcome, not causation); LensCraft (scenario generator used by Studio Voix d'Or); LibriWouo (SME tax SaaS prototype); AI agents for social media/customer service (offer page).
-- **Recognition:** finalist, 2026 National Digital Competition; TKS Velocity student; NASA Space Apps Challenge 2026 participant; Conrad Challenge 2026–27 participant.
+- **Recognition:** finalist, 2026 National Digital Competition; NASA Space Apps Challenge 2026 participant; Conrad Challenge 2026–27 participant.
 - **Production:** Studio Voix d'Or — editing, color grading, animation on NGO/government projects (UNICEF, Terre des Hommes, CRS, Save the Children, Plan International). Keep text-only unless logo permission is confirmed.
-- **Testimonials (names/roles known, quotes pending approval):** BNV (music producer, Best Arranger of the Year, Nuit du Mérite), Inoss (DJ, Best DJ 2026, Nuit des Lauréats), Serge Désiré Ouédraogo (Manager, Brand Images / Étalon Film), Sougrinoma Ferdinand Tapsoba (Manager, Studio Voix d'Or), TKS peers (High Fives).
+- **Testimonials (names/roles known, quotes pending approval):** BNV (music producer, Best Arranger of the Year, Nuit du Mérite), Inoss (DJ, Best DJ 2026, Nuit des Lauréats), Serge Désiré Ouédraogo (Manager, Brand Images / Étalon Film), Sougrinoma Ferdinand Tapsoba (Manager, Studio Voix d'Or).
 
 ### Owner constraints
 

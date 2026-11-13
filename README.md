@@ -142,7 +142,7 @@ On the homepage and archive cards the player is inert. A transparent shield sits
 | Studio Voix d'Or | `public/media/work/studio-voix-dor-1..7.jpg` | Real frames from published clips |
 | Buud Zabré | `public/media/work/buud-zabre/` | Teaser MP4, frames, 8 Bible plates, screenplay PDF |
 | Hand tracking | `public/media/work/hand-tracking-live.png` | Live Celly demo with landmarks |
-| Bangre Néo Lab | `public/media/work/bangre-neo-lab-test.png` | Celly assessment screen |
+
 | CRISPR | `public/media/work/crispr-benchling.png` | Benchling BRCA2 sequence editor |
 
 Do not add a showreel or portrait until a real master exists. The site currently has no showreel section on purpose.

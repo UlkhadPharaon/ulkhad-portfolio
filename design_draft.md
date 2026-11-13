@@ -7,7 +7,7 @@
 
 ## 1. The problem in one paragraph
 
-The current site is a competent dark HUD template wrapped around hedged copy. It says “en construction”, “showreel à fournir”, “visual placeholder” and “CV à ajouter”; its strongest evidence (national finalist, TKS Velocity, Studio Voix d’Or institutional credits, live products) is buried in a ten-item timeline. A visitor cannot answer in ten seconds: who is this, what has he shipped, who used it, and why believe it. The redesign keeps the multi-audience portfolio goal but gives it one spine and puts real artifacts first.
+The current site is a competent dark HUD template wrapped around hedged copy. It says “en construction”, “showreel à fournir”, “visual placeholder” and “CV à ajouter”; its strongest evidence (national finalist, Studio Voix d’Or institutional credits, live products) is buried in a ten-item timeline. A visitor cannot answer in ten seconds: who is this, what has he shipped, who used it, and why believe it. The redesign keeps the multi-audience portfolio goal but gives it one spine and puts real artifacts first.
 
 ## 2. The spine
 
@@ -22,18 +22,18 @@ Supporting line, FR: *Réalisateur et builder. Je travaille là où le cinéma, 
 
 Supporting line, EN: *Filmmaker and builder. I work where cinema, real-time 3D and AI meet — from screenplay to shipped product.*
 
-Proof line directly under the claim: `Finaliste — Concours National du Numérique 2026 · TKS Velocity · Studio Voix d’Or`.
+Proof line directly under the claim: `Finaliste — Concours National du Numérique 2026 · Studio Voix d’Or`.
 
 ## 3. Homepage order (8 sections, down from 11)
 
 | # | Section | Purpose | Primary audience | Proof shown |
 |---|---------|---------|------------------|-------------|
 | 1 | Hero | Name, claim, one real film frame | Everyone | Directed Unreal Engine teaser |
-| 2 | Proof rail | Four verifiable anchors, no adjectives | Programs, investors, recruiters | Finalist, TKS, Studio Voix d’Or, 5 live apps |
+| 2 | Proof rail | Three verifiable anchors, no adjectives | Programs, investors, recruiters | Finalist, Studio Voix d’Or, 5 live apps |
 | 3 | Selected work | Six projects with real covers | Recruiters, clients | Film stills, app screenshots |
 | 4 | Signature frame | One pinned, full-bleed VFX still | Creative clients | Simulation / compositing study |
-| 5 | About teaser | Voice, location, current builds | Programs, mentors | TKS, Bangre Néo, NASA Space Apps |
-| 6 | Network marquee | Named professionals, real credentials | Everyone | BNV, Inoss, Brand Images, Studio Voix d’Or, TKS |
+| 5 | About teaser | Voice, location, current builds | Programs, mentors | NASA Space Apps |
+| 6 | Network marquee | Named professionals, real credentials | Everyone | BNV, Inoss, Brand Images, Studio Voix d’Or |
 | 7 | Audience paths | Four explicit routes to proof | All four | — |
 | 8 | Contact | One next action | All four | — |
 

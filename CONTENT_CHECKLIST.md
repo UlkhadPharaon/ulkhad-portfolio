@@ -18,7 +18,7 @@ The site hides what is missing rather than showing placeholders. This file track
 
 These are wired into the site but only the owner can confirm them:
 
-- [ ] TKS profile — https://www.tks.life/p/ulrich (public, linked from `/fr/about`)
+
 - [ ] Barka Digital — https://lefasodigital.net/concours/vitrine/barka-digital (public, linked from `/fr/about`)
 - [ ] NASA Space Apps team Icarus 6 — https://www.spaceappschallenge.org/2026/find-a-team/icarus6/?tab=members (public, linked from `/fr/about`)
 - [ ] Celly — https://celly-epp.pages.dev/ (public, linked from the Celly and CellLab projects)
@@ -36,14 +36,14 @@ These are wired into the site but only the owner can confirm them:
 ## Quotes that cannot be invented
 
 - [ ] **Inoss, BNV, Serge Désiré Ouédraogo, Sougrinoma Ferdinand Tapsoba** — no ready-made quotes. They appear with name, role and credential only. If any of them supplies wording, move them into `testimonials`.
-- [ ] The eleven approved TKS High Fives in `testimonials` were transcribed from messages the owner received. Re-read each French rendering against the English original before publishing; the translations are faithful but should be checked by a native reader.
+- [ ] The approved High Fives in `testimonials` were transcribed from messages the owner received. Re-read each French rendering against the English original before publishing; the translations are faithful but should be checked by a native reader.
 
 ## Media still missing
 
 - [ ] **The VFX, CGI, AI-workflow and breakdown showreels** — the owner is making these. They will replace the per-project video grid on the VFX case study. The site has no showreel section on purpose yet.
 - [ ] **Cancer-detection prototype** — the demo runs locally, but its model and weights are fetched from the TensorFlow.js CDN. Confirm the demo still loads on the production host and after any CDN change.
 - [ ] **A real portrait** — only if an approved one exists. The current layout does not depend on it.
-- [ ] **Bangre Néo Lab** — currently illustrated with the Celly assessment screen, which is a real output of the same research direction. Replace with dedicated material if it appears.
+
 
 ## Hosting notes
 
@@ -61,12 +61,12 @@ These are wired into the site but only the owner can confirm them:
 - [x] Studio Voix d'Or lists the real music videos and commercials with their real titles.
 - [x] Every video autoplays muted and looping; a click swaps in the sound-on player. `hd=1` requests the highest available quality.
 - [x] Buud Zabré has a self-hosted teaser, a downloadable screenplay PDF and eight real Bible plates.
-- [x] TKS Velocity is described as an accelerated, selective program, not a cohort, with the profile linked.
+
 - [x] The Lab page, its nav entry, its styles and the MediaPipe dependency are all removed.
 - [x] The official logo and its reveal animation replace the old "UP" monogram in the nav, footer, favicon, About page and homepage hero.
 - [x] Every video control is localised in French and English; no English label appears on a French page.
 - [x] Celly is a project, with a real screenshot as its cover.
-- [x] AEGIS — The Intelligent Escort is a project (Unitree G1 EDU, TKS Unitree SDK Challenge), with the real showcase page as its cover.
+- [x] AEGIS — The Intelligent Escort is a project (Unitree G1 EDU), with the real showcase page as its cover.
 - [x] Go2 Patrol — Campus Security Research is a project (Unitree Go2, campus security pilot research), with the real dossier page as its cover. It is labelled a research dossier and SIMULATED throughout.
 - [x] The cancer-detection model has a self-hosted, runnable demo (TensorFlow.js, three real classes: normal / benign / malignant) and the cover is a screenshot of it returning a real result.
 - [x] Jordan — Creative AI Agent is illustrated with real renders from the Jordan Creative Pack.
